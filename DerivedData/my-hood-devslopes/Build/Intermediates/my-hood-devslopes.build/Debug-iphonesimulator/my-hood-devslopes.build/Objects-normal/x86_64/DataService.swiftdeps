@@ -1,0 +1,510 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataService"
+provides-nominal:
+- "C17my_hood_devslopes11DataService"
+provides-member:
+- ["C17my_hood_devslopes11DataService", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIImage"
+- !private "NSKeyedArchiver"
+- "StringLiteralType"
+- !private "NSNotification"
+- "String"
+- !private "NSDate"
+- !private "NSData"
+- !private "NSUserDefaults"
+- !private "BooleanLiteralType"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "UIImagePNGRepresentation"
+- !private "NSNotificationCenter"
+- "DataService"
+- !private "NSString"
+- !private "NSKeyedUnarchiver"
+- "Post"
+depends-member:
+- ["PSs9AnyObject", "DataService"]
+- !private ["PSs9AnyObject", "KEY_POSTS"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "NSKeyedArchiver"]
+- !private ["PSs9AnyObject", "NSKeyedUnarchiver"]
+- !private ["PSs9AnyObject", "NSNotification"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSs9AnyObject", "NSUserDefaults"]
+- ["PSs9AnyObject", "Post"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "UIImagePNGRepresentation"]
+- !private ["PSs9AnyObject", "_loadedPosts"]
+- !private ["PSs9AnyObject", "archivedDataWithRootObject"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- !private ["PSs9AnyObject", "documentsPathForFileName"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "loadPosts"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "postNotification"]
+- !private ["PSs9AnyObject", "savePosts"]
+- !private ["PSs9AnyObject", "setObject"]
+- !private ["PSs9AnyObject", "standardUserDefaults"]
+- !private ["PSs9AnyObject", "stringByAppendingPathComponent"]
+- !private ["PSs9AnyObject", "synchronize"]
+- !private ["PSs9AnyObject", "timeIntervalSinceReferenceDate"]
+- !private ["PSs9AnyObject", "unarchiveObjectWithData"]
+- !private ["PSs9AnyObject", "writeToFile"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "UserDomainMask"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "archivedDataWithRootObject"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "objectForKey"]
+- !private ["PSs11CVarArgType", "postNotification"]
+- !private ["PSs11CVarArgType", "setObject"]
+- !private ["PSs11CVarArgType", "standardUserDefaults"]
+- !private ["PSs11CVarArgType", "stringByAppendingPathComponent"]
+- !private ["PSs11CVarArgType", "synchronize"]
+- !private ["PSs11CVarArgType", "timeIntervalSinceReferenceDate"]
+- !private ["PSs11CVarArgType", "unarchiveObjectWithData"]
+- !private ["PSs11CVarArgType", "writeToFile"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "archivedDataWithRootObject"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "objectForKey"]
+- !private ["PSs23CustomStringConvertible", "postNotification"]
+- !private ["PSs23CustomStringConvertible", "setObject"]
+- !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "synchronize"]
+- !private ["PSs23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["PSs23CustomStringConvertible", "unarchiveObjectWithData"]
+- !private ["PSs23CustomStringConvertible", "writeToFile"]
+- ["C17my_hood_devslopes11DataService", "DataService"]
+- ["C17my_hood_devslopes11DataService", "KEY_POSTS"]
+- !private ["C17my_hood_devslopes11DataService", "NSData"]
+- !private ["C17my_hood_devslopes11DataService", "NSDate"]
+- !private ["C17my_hood_devslopes11DataService", "NSKeyedArchiver"]
+- !private ["C17my_hood_devslopes11DataService", "NSKeyedUnarchiver"]
+- !private ["C17my_hood_devslopes11DataService", "NSNotification"]
+- !private ["C17my_hood_devslopes11DataService", "NSNotificationCenter"]
+- !private ["C17my_hood_devslopes11DataService", "NSSearchPathForDirectoriesInDomains"]
+- !private ["C17my_hood_devslopes11DataService", "NSString"]
+- !private ["C17my_hood_devslopes11DataService", "NSUserDefaults"]
+- ["C17my_hood_devslopes11DataService", "Post"]
+- ["C17my_hood_devslopes11DataService", "String"]
+- ["C17my_hood_devslopes11DataService", "UIImage"]
+- !private ["C17my_hood_devslopes11DataService", "UIImagePNGRepresentation"]
+- !private ["C17my_hood_devslopes11DataService", "_loadedPosts"]
+- ["C17my_hood_devslopes11DataService", "addPost"]
+- ["C17my_hood_devslopes11DataService", "deinit"]
+- ["C17my_hood_devslopes11DataService", "documentsPathForFileName"]
+- ["C17my_hood_devslopes11DataService", "imageForPath"]
+- ["C17my_hood_devslopes11DataService", "init"]
+- ["C17my_hood_devslopes11DataService", "instance"]
+- ["C17my_hood_devslopes11DataService", "loadPosts"]
+- ["C17my_hood_devslopes11DataService", "loadedPosts"]
+- ["C17my_hood_devslopes11DataService", "saveImageAndCreatePath"]
+- ["C17my_hood_devslopes11DataService", "savePosts"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "DocumentDirectory"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "UserDomainMask"]
+- !private ["PSs9Equatable", "archivedDataWithRootObject"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "objectForKey"]
+- !private ["PSs9Equatable", "postNotification"]
+- !private ["PSs9Equatable", "setObject"]
+- !private ["PSs9Equatable", "standardUserDefaults"]
+- !private ["PSs9Equatable", "stringByAppendingPathComponent"]
+- !private ["PSs9Equatable", "synchronize"]
+- !private ["PSs9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs9Equatable", "unarchiveObjectWithData"]
+- !private ["PSs9Equatable", "writeToFile"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "DocumentDirectory"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "archivedDataWithRootObject"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "objectForKey"]
+- !private ["PSs8Hashable", "postNotification"]
+- !private ["PSs8Hashable", "setObject"]
+- !private ["PSs8Hashable", "standardUserDefaults"]
+- !private ["PSs8Hashable", "stringByAppendingPathComponent"]
+- !private ["PSs8Hashable", "synchronize"]
+- !private ["PSs8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs8Hashable", "unarchiveObjectWithData"]
+- !private ["PSs8Hashable", "writeToFile"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- ["PSs16MutableSliceable", "init"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- !private ["CSo7NSCoder", "archivedDataWithRootObject"]
+- !private ["CSo7NSCoder", "unarchiveObjectWithData"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringByAppendingPathComponent"]
+- !private ["PSo8NSCoding", "timeIntervalSinceReferenceDate"]
+- !private ["PSo8NSCoding", "writeToFile"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByAppendingPathComponent"]
+- !private ["PSo9NSCopying", "timeIntervalSinceReferenceDate"]
+- !private ["PSo9NSCopying", "writeToFile"]
+- !private ["CSo6NSData", "writeToFile"]
+- !private ["CSo6NSDate", "timeIntervalSinceReferenceDate"]
+- !private ["CSo15NSKeyedArchiver", "archivedDataWithRootObject"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObjectWithData"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "stringByAppendingPathComponent"]
+- !private ["PSo16NSMutableCopying", "writeToFile"]
+- !private ["CSo14NSNotification", "init"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "postNotification"]
+- !private ["CSo8NSObject", "archivedDataWithRootObject"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "postNotification"]
+- !private ["CSo8NSObject", "setObject"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "stringByAppendingPathComponent"]
+- !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "timeIntervalSinceReferenceDate"]
+- !private ["CSo8NSObject", "unarchiveObjectWithData"]
+- !private ["CSo8NSObject", "writeToFile"]
+- !private ["PSo16NSObjectProtocol", "archivedDataWithRootObject"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "postNotification"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "stringByAppendingPathComponent"]
+- !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSinceReferenceDate"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "writeToFile"]
+- !private ["OSC21NSSearchPathDirectory", "DocumentDirectory"]
+- !private ["VSC22NSSearchPathDomainMask", "UserDomainMask"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByAppendingPathComponent"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSinceReferenceDate"]
+- !private ["PSo14NSSecureCoding", "writeToFile"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "stringByAppendingPathComponent"]
+- !private ["CSo14NSUserDefaults", "objectForKey"]
+- !private ["CSo14NSUserDefaults", "setObject"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["CSo14NSUserDefaults", "synchronize"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "UserDomainMask"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs16RawRepresentable", "DocumentDirectory"]
+- !private ["PSs16RawRepresentable", "UserDomainMask"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "UserDomainMask"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByAppendingPathComponent"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "stringByAppendingPathComponent"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "append"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "stringByAppendingPathComponent"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs11CVarArgType"
+- !private "VSs9Character"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "C17my_hood_devslopes11DataService"
+- !private "Sd"
+- !private "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "PSs8Hashable"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- !private "CSo7NSCoder"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo6NSDate"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- !private "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "OSC21NSSearchPathDirectory"
+- !private "VSC22NSSearchPathDomainMask"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo14NSUserDefaults"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "PSs10_ArrayType"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "75d71920fcf4ad21b47f0bc7679ce69d"

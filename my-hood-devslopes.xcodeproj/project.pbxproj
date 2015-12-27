@@ -12,6 +12,10 @@
 		1E1D18D11C2FDB1E00E2685A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */; };
 		1E1D18D31C2FDB1E00E2685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */; };
 		1E1D18D61C2FDB1E00E2685A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */; };
+		1E1D18DF1C2FDB8100E2685A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18DE1C2FDB8100E2685A /* Post.swift */; };
+		1E1D18E21C2FE9B700E2685A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18E11C2FE9B700E2685A /* PostCell.swift */; };
+		1E1D18E51C2FF87000E2685A /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18E41C2FF87000E2685A /* AddPostVC.swift */; };
+		1E1D18E91C30873700E2685A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18E71C30746600E2685A /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1D18D51C2FDB1E00E2685A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E1D18D71C2FDB1E00E2685A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1D18DE1C2FDB8100E2685A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1E1D18E11C2FE9B700E2685A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		1E1D18E41C2FF87000E2685A /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		1E1D18E71C30746600E2685A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,50 @@
 		1E1D18CA1C2FDB1E00E2685A /* my-hood-devslopes */ = {
 			isa = PBXGroup;
 			children = (
+				1E1D18E61C30744A00E2685A /* Services */,
+				1E1D18E31C2FF83600E2685A /* Controller */,
+				1E1D18E01C2FE98900E2685A /* View */,
+				1E1D18DD1C2FDB6F00E2685A /* Model */,
 				1E1D18CB1C2FDB1E00E2685A /* AppDelegate.swift */,
-				1E1D18CD1C2FDB1E00E2685A /* ViewController.swift */,
-				1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */,
 				1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */,
-				1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */,
 				1E1D18D71C2FDB1E00E2685A /* Info.plist */,
 			);
 			path = "my-hood-devslopes";
+			sourceTree = "<group>";
+		};
+		1E1D18DD1C2FDB6F00E2685A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18DE1C2FDB8100E2685A /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E1D18E01C2FE98900E2685A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */,
+				1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */,
+				1E1D18E11C2FE9B700E2685A /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E1D18E31C2FF83600E2685A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18CD1C2FDB1E00E2685A /* ViewController.swift */,
+				1E1D18E41C2FF87000E2685A /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E1D18E61C30744A00E2685A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18E71C30746600E2685A /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +140,6 @@
 				TargetAttributes = {
 					1E1D18C71C2FDB1E00E2685A = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = EC5B9295S8;
 					};
 				};
 			};
@@ -136,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1D18DF1C2FDB8100E2685A /* Post.swift in Sources */,
 				1E1D18CE1C2FDB1E00E2685A /* ViewController.swift in Sources */,
+				1E1D18E51C2FF87000E2685A /* AddPostVC.swift in Sources */,
+				1E1D18E91C30873700E2685A /* DataService.swift in Sources */,
 				1E1D18CC1C2FDB1E00E2685A /* AppDelegate.swift in Sources */,
+				1E1D18E21C2FE9B700E2685A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "my-hood-devslopes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zafer.my-hood-devslopes";
@@ -261,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "my-hood-devslopes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zafer.my-hood-devslopes";
@@ -287,6 +336,7 @@
 				1E1D18DC1C2FDB1E00E2685A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

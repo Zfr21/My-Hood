@@ -8,18 +8,59 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    @IBOutlet weak var tableView: UITableView!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = self
+        tableView.dataSource = self
+        DataService.instance.loadPosts()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "onPostsLoaded:", name: "postsLoaded", object: nil)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
 
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+
+        let post = DataService.instance.loadedPosts[indexPath.row]
+        if let cell = tableView.dequeueReusableCellWithIdentifier("PostCell") as? PostCell {
+            cell.configureCell(post)
+            return cell
+        } else {
+            let cell = PostCell()
+            cell.configureCell(post)
+            return cell
+        }
+    }
+
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+
+        return 85.0
+    }
+
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return DataService.instance.loadedPosts.count
+    }
+
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if(editingStyle == UITableViewCellEditingStyle.Delete) {
+            var postArray = DataService.instance.loadedPosts
+            let post = postArray[indexPath.row]
+            postArray.removeAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Left)
+
+            DataService.instance.deletePost(post.imagePath)
+        }
+    }
+
+    func onPostsLoaded(notif: AnyObject){
+        tableView.reloadData()
+    }
 
 }
 

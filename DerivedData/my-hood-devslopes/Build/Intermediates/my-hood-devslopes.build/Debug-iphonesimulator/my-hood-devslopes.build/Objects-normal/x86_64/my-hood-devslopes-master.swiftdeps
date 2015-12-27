@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "7a063e852747251dcb59a8b4d17e5baf"
+build_time: [504565567, 445193000]
+inputs:
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/AppDelegate.swift": [504520734, 0]
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/ViewController.swift": [504565567, 0]
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/PostCell.swift": [504565351, 0]
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/DataService.swift": [504565440, 0]
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/AddPostVC.swift": [504565259, 0]
+  "/Users/zafer/Desktop/Swift Language/my-hood-devslopes/my-hood-devslopes/Post.swift": [504563781, 0]

@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Post"
+provides-nominal:
+- "C17my_hood_devslopes4Post"
+provides-member:
+- ["C17my_hood_devslopes4Post", ""]
+provides-dynamic-lookup:
+- "imagePath"
+- "encodeWithCoder"
+- "postDesc"
+- "title"
+depends-top-level:
+- !private "StringLiteralType"
+- "NSObject"
+- "String"
+- "NSCoder"
+- "NSCoding"
+- "Post"
+depends-member:
+- ["PSs9AnyObject", "_imagePath"]
+- ["PSs9AnyObject", "_postDesc"]
+- ["PSs9AnyObject", "_title"]
+- !private ["PSs9AnyObject", "decodeObjectForKey"]
+- !private ["PSs9AnyObject", "encodeObject"]
+- ["PSs9AnyObject", "encodeWithCoder"]
+- ["PSs9AnyObject", "imagePath"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "postDesc"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "_imagePath"]
+- ["PSs11CVarArgType", "_postDesc"]
+- ["PSs11CVarArgType", "_title"]
+- !private ["PSs11CVarArgType", "decodeObjectForKey"]
+- !private ["PSs11CVarArgType", "encodeObject"]
+- ["PSs11CVarArgType", "encodeWithCoder"]
+- ["PSs11CVarArgType", "imagePath"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "postDesc"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "_imagePath"]
+- ["PSs23CustomStringConvertible", "_postDesc"]
+- ["PSs23CustomStringConvertible", "_title"]
+- !private ["PSs23CustomStringConvertible", "decodeObjectForKey"]
+- !private ["PSs23CustomStringConvertible", "encodeObject"]
+- ["PSs23CustomStringConvertible", "encodeWithCoder"]
+- ["PSs23CustomStringConvertible", "imagePath"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "postDesc"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "_imagePath"]
+- ["PSs9Equatable", "_postDesc"]
+- ["PSs9Equatable", "_title"]
+- !private ["PSs9Equatable", "decodeObjectForKey"]
+- !private ["PSs9Equatable", "encodeObject"]
+- ["PSs9Equatable", "encodeWithCoder"]
+- ["PSs9Equatable", "imagePath"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "postDesc"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "_imagePath"]
+- ["PSs8Hashable", "_postDesc"]
+- ["PSs8Hashable", "_title"]
+- !private ["PSs8Hashable", "decodeObjectForKey"]
+- !private ["PSs8Hashable", "encodeObject"]
+- ["PSs8Hashable", "encodeWithCoder"]
+- ["PSs8Hashable", "imagePath"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "postDesc"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["CSo7NSCoder", "decodeObjectForKey"]
+- !private ["CSo7NSCoder", "encodeObject"]
+- !private ["PSo8NSCoding", "_imagePath"]
+- !private ["PSo8NSCoding", "_postDesc"]
+- !private ["PSo8NSCoding", "_title"]
+- ["PSo8NSCoding", "encodeWithCoder"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "_imagePath"]
+- ["CSo8NSObject", "_postDesc"]
+- ["CSo8NSObject", "_title"]
+- !private ["CSo8NSObject", "decodeObjectForKey"]
+- !private ["CSo8NSObject", "encodeObject"]
+- ["CSo8NSObject", "encodeWithCoder"]
+- ["CSo8NSObject", "imagePath"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "postDesc"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "_imagePath"]
+- ["PSo16NSObjectProtocol", "_postDesc"]
+- ["PSo16NSObjectProtocol", "_title"]
+- !private ["PSo16NSObjectProtocol", "decodeObjectForKey"]
+- !private ["PSo16NSObjectProtocol", "encodeObject"]
+- ["PSo16NSObjectProtocol", "encodeWithCoder"]
+- ["PSo16NSObjectProtocol", "imagePath"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "postDesc"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["C17my_hood_devslopes4Post", "NSCoder"]
+- ["C17my_hood_devslopes4Post", "String"]
+- !private ["C17my_hood_devslopes4Post", "_imagePath"]
+- !private ["C17my_hood_devslopes4Post", "_postDesc"]
+- !private ["C17my_hood_devslopes4Post", "_title"]
+- ["C17my_hood_devslopes4Post", "deinit"]
+- ["C17my_hood_devslopes4Post", "encodeWithCoder"]
+- ["C17my_hood_devslopes4Post", "imagePath"]
+- ["C17my_hood_devslopes4Post", "init"]
+- ["C17my_hood_devslopes4Post", "postDesc"]
+- ["C17my_hood_devslopes4Post", "title"]
+- !private ["SS", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "C17my_hood_devslopes4Post"
+- !private "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e2ec236ca1757dfe94967ac8e9f99bd1"

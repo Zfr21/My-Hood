@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1D18CC1C2FDB1E00E2685A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18CB1C2FDB1E00E2685A /* AppDelegate.swift */; };
+		1E1D18CE1C2FDB1E00E2685A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D18CD1C2FDB1E00E2685A /* ViewController.swift */; };
+		1E1D18D11C2FDB1E00E2685A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */; };
+		1E1D18D31C2FDB1E00E2685A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */; };
+		1E1D18D61C2FDB1E00E2685A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1D18C81C2FDB1E00E2685A /* my-hood-devslopes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-hood-devslopes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E1D18CB1C2FDB1E00E2685A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E1D18CD1C2FDB1E00E2685A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E1D18D01C2FDB1E00E2685A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E1D18D51C2FDB1E00E2685A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E1D18D71C2FDB1E00E2685A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1D18C51C2FDB1E00E2685A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1D18BF1C2FDB1E00E2685A = {
+			isa = PBXGroup;
+			children = (
+				1E1D18CA1C2FDB1E00E2685A /* my-hood-devslopes */,
+				1E1D18C91C2FDB1E00E2685A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E1D18C91C2FDB1E00E2685A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18C81C2FDB1E00E2685A /* my-hood-devslopes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E1D18CA1C2FDB1E00E2685A /* my-hood-devslopes */ = {
+			isa = PBXGroup;
+			children = (
+				1E1D18CB1C2FDB1E00E2685A /* AppDelegate.swift */,
+				1E1D18CD1C2FDB1E00E2685A /* ViewController.swift */,
+				1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */,
+				1E1D18D21C2FDB1E00E2685A /* Assets.xcassets */,
+				1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */,
+				1E1D18D71C2FDB1E00E2685A /* Info.plist */,
+			);
+			path = "my-hood-devslopes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E1D18C71C2FDB1E00E2685A /* my-hood-devslopes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1D18DA1C2FDB1E00E2685A /* Build configuration list for PBXNativeTarget "my-hood-devslopes" */;
+			buildPhases = (
+				1E1D18C41C2FDB1E00E2685A /* Sources */,
+				1E1D18C51C2FDB1E00E2685A /* Frameworks */,
+				1E1D18C61C2FDB1E00E2685A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my-hood-devslopes";
+			productName = "my-hood-devslopes";
+			productReference = 1E1D18C81C2FDB1E00E2685A /* my-hood-devslopes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E1D18C01C2FDB1E00E2685A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zafer Celaloglu";
+				TargetAttributes = {
+					1E1D18C71C2FDB1E00E2685A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = EC5B9295S8;
+					};
+				};
+			};
+			buildConfigurationList = 1E1D18C31C2FDB1E00E2685A /* Build configuration list for PBXProject "my-hood-devslopes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E1D18BF1C2FDB1E00E2685A;
+			productRefGroup = 1E1D18C91C2FDB1E00E2685A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E1D18C71C2FDB1E00E2685A /* my-hood-devslopes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1D18C61C2FDB1E00E2685A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1D18D61C2FDB1E00E2685A /* LaunchScreen.storyboard in Resources */,
+				1E1D18D31C2FDB1E00E2685A /* Assets.xcassets in Resources */,
+				1E1D18D11C2FDB1E00E2685A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E1D18C41C2FDB1E00E2685A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1D18CE1C2FDB1E00E2685A /* ViewController.swift in Sources */,
+				1E1D18CC1C2FDB1E00E2685A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E1D18CF1C2FDB1E00E2685A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1D18D01C2FDB1E00E2685A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E1D18D41C2FDB1E00E2685A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1D18D51C2FDB1E00E2685A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E1D18D81C2FDB1E00E2685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E1D18D91C2FDB1E00E2685A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E1D18DB1C2FDB1E00E2685A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-hood-devslopes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zafer.my-hood-devslopes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E1D18DC1C2FDB1E00E2685A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "my-hood-devslopes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zafer.my-hood-devslopes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1D18C31C2FDB1E00E2685A /* Build configuration list for PBXProject "my-hood-devslopes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1D18D81C2FDB1E00E2685A /* Debug */,
+				1E1D18D91C2FDB1E00E2685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E1D18DA1C2FDB1E00E2685A /* Build configuration list for PBXNativeTarget "my-hood-devslopes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1D18DB1C2FDB1E00E2685A /* Debug */,
+				1E1D18DC1C2FDB1E00E2685A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E1D18C01C2FDB1E00E2685A /* Project object */;
+}

@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C17my_hood_devslopes8PostCell", ""]
 provides-dynamic-lookup:
+- "awakeFromNib"
+- "postImage"
 - "descLbl"
 - "configureCell"
-- "postImage"
 - "titleLbl"
-- "awakeFromNib"
 depends-top-level:
-- "UIImageView"
-- "PostCell"
 - "Post"
+- "UIImageView"
 - "UITableViewCell"
+- !private "DataService"
 - !private "BooleanLiteralType"
 - "UILabel"
-- !private "DataService"
+- "PostCell"
 - !private "/"
 depends-member:
 - !private ["PSs9AnyObject", "DataService"]

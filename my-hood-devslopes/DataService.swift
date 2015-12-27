@@ -25,11 +25,6 @@ class DataService {
         NSUserDefaults.standardUserDefaults().synchronize()
     }
 
-    func deletePosts(imgToDelete: String) {
-        savePosts()
-        
-    }
-
     func loadPosts() {
         if let postData = NSUserDefaults.standardUserDefaults().objectForKey(KEY_POSTS) as? NSData {
             if let postArray = NSKeyedUnarchiver.unarchiveObjectWithData(postData) as? [Post] {

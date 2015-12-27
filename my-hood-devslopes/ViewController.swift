@@ -47,17 +47,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return DataService.instance.loadedPosts.count
     }
 
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if(editingStyle == UITableViewCellEditingStyle.Delete) {
-            var postArray = DataService.instance.loadedPosts
-            let post = postArray[indexPath.row]
-            postArray.removeAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Left)
-
-            DataService.instance.deletePost(post.imagePath)
-        }
-    }
-
     func onPostsLoaded(notif: AnyObject){
         tableView.reloadData()
     }

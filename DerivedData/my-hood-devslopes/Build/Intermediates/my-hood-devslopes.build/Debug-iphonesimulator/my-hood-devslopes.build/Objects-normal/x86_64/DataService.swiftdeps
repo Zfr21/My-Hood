@@ -7,22 +7,22 @@ provides-member:
 - ["C17my_hood_devslopes11DataService", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UIImage"
+- !private "NSKeyedUnarchiver"
+- "DataService"
 - !private "NSKeyedArchiver"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "UIImage"
+- "String"
+- !private "NSNotificationCenter"
 - "StringLiteralType"
 - !private "NSNotification"
-- "String"
-- !private "NSDate"
 - !private "NSData"
+- !private "UIImagePNGRepresentation"
+- !private "NSDate"
+- !private "NSString"
+- "Post"
 - !private "NSUserDefaults"
 - !private "BooleanLiteralType"
-- !private "NSSearchPathForDirectoriesInDomains"
-- !private "UIImagePNGRepresentation"
-- !private "NSNotificationCenter"
-- "DataService"
-- !private "NSString"
-- !private "NSKeyedUnarchiver"
-- "Post"
 depends-member:
 - ["PSs9AnyObject", "DataService"]
 - !private ["PSs9AnyObject", "KEY_POSTS"]
@@ -147,6 +147,7 @@ depends-member:
 - !private ["C17my_hood_devslopes11DataService", "_loadedPosts"]
 - ["C17my_hood_devslopes11DataService", "addPost"]
 - ["C17my_hood_devslopes11DataService", "deinit"]
+- ["C17my_hood_devslopes11DataService", "deletePosts"]
 - ["C17my_hood_devslopes11DataService", "documentsPathForFileName"]
 - ["C17my_hood_devslopes11DataService", "imageForPath"]
 - ["C17my_hood_devslopes11DataService", "init"]
@@ -507,4 +508,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "75d71920fcf4ad21b47f0bc7679ce69d"
+interface-hash: "411dc18f69def4157e65bf44e5293940"

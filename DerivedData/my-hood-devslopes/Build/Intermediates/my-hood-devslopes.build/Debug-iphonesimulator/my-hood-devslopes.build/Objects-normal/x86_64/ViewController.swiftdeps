@@ -6,35 +6,39 @@ provides-nominal:
 provides-member:
 - ["C17my_hood_devslopes14ViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "onPostsLoaded"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
 - "numberOfSectionsInTableView"
+- "viewDidLoad"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "onPostsLoaded"
 depends-top-level:
-- "Int"
-- !private "StringLiteralType"
 - "UIViewController"
-- "NSIndexPath"
-- !private "DataService"
-- "AnyObject"
-- !private "=="
-- "CGFloat"
-- "UITableViewCellEditingStyle"
-- "UITableViewCell"
-- "ViewController"
-- !private "UITableViewRowAnimation"
-- !private "NSNotificationCenter"
-- "UITableView"
-- "UITableViewDelegate"
 - !private "Array"
-- "UITableViewDataSource"
+- "ViewController"
+- !private "NSNotificationCenter"
 - !private "PostCell"
+- "NSIndexPath"
+- !private "BooleanLiteralType"
+- "Int"
+- "UITableView"
+- "UITableViewCellEditingStyle"
+- "Bool"
+- !private "=="
+- "AnyObject"
+- !private "StringLiteralType"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- !private "DataService"
+- "UITableViewDelegate"
+- "CGFloat"
+- !private "UITableViewRowAnimation"
 depends-member:
 - !private ["PSs9AnyObject", "DataService"]
+- !private ["PSs9AnyObject", "NSIndexPath"]
 - !private ["PSs9AnyObject", "NSNotificationCenter"]
 - !private ["PSs9AnyObject", "PostCell"]
 - !private ["PSs9AnyObject", "UITableViewCellEditingStyle"]
@@ -78,7 +82,6 @@ depends-member:
 - !private ["Sa", "Generator"]
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
-- !private ["Sa", "_Element"]
 - !private ["Sa", "count"]
 - !private ["Sa", "deinit"]
 - !private ["Sa", "removeAtIndex"]
@@ -87,7 +90,6 @@ depends-member:
 - !private ["PSs23ArrayLiteralConvertible", "Generator"]
 - !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
-- !private ["PSs23ArrayLiteralConvertible", "_Element"]
 - !private ["PSs23ArrayLiteralConvertible", "count"]
 - !private ["PSs23ArrayLiteralConvertible", "removeAtIndex"]
 - !private ["PSs23ArrayLiteralConvertible", "subscript"]
@@ -104,6 +106,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "DataService"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSIndexPath"]
 - !private ["PSs11CVarArgType", "NSNotificationCenter"]
 - !private ["PSs11CVarArgType", "PostCell"]
 - !private ["PSs11CVarArgType", "UITableViewCellEditingStyle"]
@@ -154,7 +157,6 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - ["PSs28CustomDebugStringConvertible", "Some"]
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
-- !private ["PSs28CustomDebugStringConvertible", "_Element"]
 - !private ["PSs28CustomDebugStringConvertible", "count"]
 - !private ["PSs28CustomDebugStringConvertible", "removeAtIndex"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
@@ -164,12 +166,12 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "Generator"]
 - !private ["PSs23CustomStringConvertible", "Index"]
 - !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "NSIndexPath"]
 - !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
 - !private ["PSs23CustomStringConvertible", "PostCell"]
 - !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UITableViewCellEditingStyle"]
 - !private ["PSs23CustomStringConvertible", "UITableViewRowAnimation"]
-- !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "addObserver"]
 - !private ["PSs23CustomStringConvertible", "configureCell"]
@@ -214,6 +216,7 @@ depends-member:
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "Left"]
+- !private ["PSs9Equatable", "NSIndexPath"]
 - !private ["PSs9Equatable", "NSNotificationCenter"]
 - !private ["PSs9Equatable", "PostCell"]
 - !private ["PSs9Equatable", "RawValue"]
@@ -259,6 +262,7 @@ depends-member:
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "Left"]
+- !private ["PSs8Hashable", "NSIndexPath"]
 - !private ["PSs8Hashable", "NSNotificationCenter"]
 - !private ["PSs8Hashable", "PostCell"]
 - !private ["PSs8Hashable", "RawValue"]
@@ -319,7 +323,6 @@ depends-member:
 - !private ["PSs21MutableCollectionType", "Generator"]
 - !private ["PSs21MutableCollectionType", "Index"]
 - !private ["PSs21MutableCollectionType", "SubSequence"]
-- !private ["PSs21MutableCollectionType", "_Element"]
 - !private ["PSs21MutableCollectionType", "count"]
 - !private ["PSs21MutableCollectionType", "removeAtIndex"]
 - !private ["PSs21MutableCollectionType", "subscript"]
@@ -327,7 +330,6 @@ depends-member:
 - !private ["PSs16MutableIndexable", "Generator"]
 - !private ["PSs16MutableIndexable", "Index"]
 - !private ["PSs16MutableIndexable", "SubSequence"]
-- !private ["PSs16MutableIndexable", "_Element"]
 - !private ["PSs16MutableIndexable", "count"]
 - !private ["PSs16MutableIndexable", "removeAtIndex"]
 - !private ["PSs16MutableIndexable", "subscript"]
@@ -335,11 +337,11 @@ depends-member:
 - !private ["PSs16MutableSliceable", "Generator"]
 - !private ["PSs16MutableSliceable", "Index"]
 - !private ["PSs16MutableSliceable", "SubSequence"]
-- !private ["PSs16MutableSliceable", "_Element"]
 - !private ["PSs16MutableSliceable", "count"]
 - !private ["PSs16MutableSliceable", "removeAtIndex"]
 - !private ["PSs16MutableSliceable", "subscript"]
 - !private ["PSo8NSCoding", "DataService"]
+- !private ["PSo8NSCoding", "NSIndexPath"]
 - !private ["PSo8NSCoding", "NSNotificationCenter"]
 - !private ["PSo8NSCoding", "PostCell"]
 - !private ["PSo8NSCoding", "UITableViewCellEditingStyle"]
@@ -373,8 +375,10 @@ depends-member:
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", "viewForZoomingInScrollView"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "row"]
 - !private ["PSo26NSExtensionRequestHandling", "DataService"]
+- !private ["PSo26NSExtensionRequestHandling", "NSIndexPath"]
 - !private ["PSo26NSExtensionRequestHandling", "NSNotificationCenter"]
 - !private ["PSo26NSExtensionRequestHandling", "PostCell"]
 - !private ["PSo26NSExtensionRequestHandling", "UITableViewCellEditingStyle"]
@@ -400,10 +404,12 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "init"]
 - !private ["CSo11NSIndexPath", "row"]
 - !private ["CSo20NSNotificationCenter", "addObserver"]
 - !private ["CSo20NSNotificationCenter", "defaultCenter"]
 - ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CGFloat"]
 - !private ["CSo8NSObject", "DataService"]
 - ["CSo8NSObject", "Int"]
@@ -445,6 +451,7 @@ depends-member:
 - ["CSo8NSObject", "viewDidLoad"]
 - ["CSo8NSObject", "viewForZoomingInScrollView"]
 - !private ["PSo16NSObjectProtocol", "DataService"]
+- !private ["PSo16NSObjectProtocol", "NSIndexPath"]
 - !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
 - !private ["PSo16NSObjectProtocol", "PostCell"]
 - !private ["PSo16NSObjectProtocol", "UITableViewCellEditingStyle"]
@@ -480,6 +487,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "row"]
 - ["PSs21NilLiteralConvertible", "Some"]
 - ["Sq", "Some"]
@@ -493,7 +501,6 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "Generator"]
 - !private ["PSs30RangeReplaceableCollectionType", "Index"]
 - !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
-- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "removeAtIndex"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
@@ -534,6 +541,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "reloadData"]
 - !private ["PSo21UIAppearanceContainer", "DataService"]
+- !private ["PSo21UIAppearanceContainer", "NSIndexPath"]
 - !private ["PSo21UIAppearanceContainer", "NSNotificationCenter"]
 - !private ["PSo21UIAppearanceContainer", "PostCell"]
 - !private ["PSo21UIAppearanceContainer", "UITableViewCellEditingStyle"]
@@ -566,6 +574,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "DataService"]
+- !private ["PSo18UIContentContainer", "NSIndexPath"]
 - !private ["PSo18UIContentContainer", "NSNotificationCenter"]
 - !private ["PSo18UIContentContainer", "PostCell"]
 - !private ["PSo18UIContentContainer", "UITableViewCellEditingStyle"]
@@ -606,6 +615,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "reloadData"]
 - !private ["PSo18UIFocusEnvironment", "DataService"]
+- !private ["PSo18UIFocusEnvironment", "NSIndexPath"]
 - !private ["PSo18UIFocusEnvironment", "NSNotificationCenter"]
 - !private ["PSo18UIFocusEnvironment", "PostCell"]
 - !private ["PSo18UIFocusEnvironment", "UITableViewCellEditingStyle"]
@@ -640,6 +650,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "configureCell"]
 - !private ["PSo27UIGestureRecognizerDelegate", "init"]
 - ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
 - !private ["CSo11UIResponder", "DataService"]
 - ["CSo11UIResponder", "Int"]
@@ -682,6 +693,7 @@ depends-member:
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo12UIScrollView", "reloadData"]
 - !private ["PSo20UIScrollViewDelegate", "DataService"]
+- !private ["PSo20UIScrollViewDelegate", "NSIndexPath"]
 - !private ["PSo20UIScrollViewDelegate", "NSNotificationCenter"]
 - !private ["PSo20UIScrollViewDelegate", "PostCell"]
 - !private ["PSo20UIScrollViewDelegate", "UITableViewCellEditingStyle"]
@@ -705,6 +717,7 @@ depends-member:
 - ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo20UIScrollViewDelegate", ""]
 - !private ["PSo16UIStateRestoring", "DataService"]
+- !private ["PSo16UIStateRestoring", "NSIndexPath"]
 - !private ["PSo16UIStateRestoring", "NSNotificationCenter"]
 - !private ["PSo16UIStateRestoring", "PostCell"]
 - !private ["PSo16UIStateRestoring", "UITableViewCellEditingStyle"]
@@ -741,6 +754,7 @@ depends-member:
 - !private ["OSC27UITableViewCellEditingStyle", "RawValue"]
 - !private ["OSC27UITableViewCellEditingStyle", "deinit"]
 - !private ["PSo21UITableViewDataSource", "DataService"]
+- !private ["PSo21UITableViewDataSource", "NSIndexPath"]
 - !private ["PSo21UITableViewDataSource", "NSNotificationCenter"]
 - !private ["PSo21UITableViewDataSource", "PostCell"]
 - !private ["PSo21UITableViewDataSource", "UITableViewCellEditingStyle"]
@@ -764,6 +778,7 @@ depends-member:
 - ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
 - ["PSo21UITableViewDataSource", ""]
 - !private ["PSo19UITableViewDelegate", "DataService"]
+- !private ["PSo19UITableViewDelegate", "NSIndexPath"]
 - !private ["PSo19UITableViewDelegate", "NSNotificationCenter"]
 - !private ["PSo19UITableViewDelegate", "PostCell"]
 - !private ["PSo19UITableViewDelegate", "UITableViewCellEditingStyle"]
@@ -788,6 +803,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", ""]
 - !private ["OSC23UITableViewRowAnimation", "Left"]
 - !private ["PSo18UITraitEnvironment", "DataService"]
+- !private ["PSo18UITraitEnvironment", "NSIndexPath"]
 - !private ["PSo18UITraitEnvironment", "NSNotificationCenter"]
 - !private ["PSo18UITraitEnvironment", "PostCell"]
 - !private ["PSo18UITraitEnvironment", "UITableViewCellEditingStyle"]
@@ -827,6 +843,7 @@ depends-member:
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "reloadData"]
 - ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CGFloat"]
 - !private ["CSo16UIViewController", "DataService"]
 - ["CSo16UIViewController", "Int"]
@@ -859,6 +876,7 @@ depends-member:
 - ["CSo16UIViewController", "viewForZoomingInScrollView"]
 - ["CSo16UIViewController", ""]
 - ["C17my_hood_devslopes14ViewController", "AnyObject"]
+- ["C17my_hood_devslopes14ViewController", "Bool"]
 - ["C17my_hood_devslopes14ViewController", "CGFloat"]
 - !private ["C17my_hood_devslopes14ViewController", "DataService"]
 - ["C17my_hood_devslopes14ViewController", "Int"]
@@ -894,7 +912,6 @@ depends-member:
 - !private ["PSs10_ArrayType", "Generator"]
 - !private ["PSs10_ArrayType", "Index"]
 - !private ["PSs10_ArrayType", "SubSequence"]
-- !private ["PSs10_ArrayType", "_Element"]
 - !private ["PSs10_ArrayType", "count"]
 - !private ["PSs10_ArrayType", "removeAtIndex"]
 - !private ["PSs10_ArrayType", "subscript"]
@@ -905,7 +922,6 @@ depends-member:
 - !private ["PSs24_DestructorSafeContainer", "Generator"]
 - !private ["PSs24_DestructorSafeContainer", "Index"]
 - !private ["PSs24_DestructorSafeContainer", "SubSequence"]
-- !private ["PSs24_DestructorSafeContainer", "_Element"]
 - !private ["PSs24_DestructorSafeContainer", "count"]
 - !private ["PSs24_DestructorSafeContainer", "removeAtIndex"]
 - !private ["PSs24_DestructorSafeContainer", "subscript"]
@@ -921,7 +937,6 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "Index"]
 - !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
-- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["PSs21_ObjectiveCBridgeable", "count"]
 - !private ["PSs21_ObjectiveCBridgeable", "removeAtIndex"]
@@ -935,7 +950,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "IntegerLiteralType"]
 - ["PSs12_Reflectable", "Some"]
 - !private ["PSs12_Reflectable", "SubSequence"]
-- !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "configureCell"]
 - !private ["PSs12_Reflectable", "count"]
@@ -1047,4 +1061,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "64505361595c31ad737b407d7a5e285b"
+interface-hash: "719fce63f2aa007d90727433e1e9a022"

@@ -39,6 +39,7 @@ class Post: NSObject, NSCoding {
         self._title = aDecoder.decodeObjectForKey("title") as? String
         self._postDesc = aDecoder.decodeObjectForKey("postDesc") as? String
         }
+
     func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(self._imagePath, forKey: "imagePath")
         aCoder.encodeObject(self._title, forKey: "title")

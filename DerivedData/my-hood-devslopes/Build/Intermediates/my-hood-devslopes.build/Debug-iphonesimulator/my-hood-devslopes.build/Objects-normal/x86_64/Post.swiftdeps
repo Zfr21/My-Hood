@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C17my_hood_devslopes4Post", ""]
 provides-dynamic-lookup:
-- "imagePath"
 - "encodeWithCoder"
-- "postDesc"
 - "title"
+- "postDesc"
+- "imagePath"
 depends-top-level:
-- !private "StringLiteralType"
 - "NSObject"
-- "String"
+- !private "StringLiteralType"
+- "Post"
 - "NSCoder"
 - "NSCoding"
-- "Post"
+- "String"
 depends-member:
 - ["PSs9AnyObject", "_imagePath"]
 - ["PSs9AnyObject", "_postDesc"]

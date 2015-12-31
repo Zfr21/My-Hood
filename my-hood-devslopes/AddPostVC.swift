@@ -15,20 +15,19 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     @IBOutlet weak var descField: UITextField!
 
     var imagePicker: UIImagePickerController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         postImg.layer.cornerRadius = postImg.frame.size.width / 2
         postImg.clipsToBounds = true
 
-        imagePicker = UIImagePickerController()
-        imagePicker.delegate = self
     }
 
     @IBAction func makePostBtnPressed(sender: AnyObject) {
         if let title = titleField.text, let desc = descField.text, let img = postImg.image {
 
-            let  imgPath = DataService.instance.saveImageAndCreatePath(img)
+            let imgPath = DataService.instance.saveImageAndCreatePath(img)
 
 
             let post = Post(imagePath: imgPath, title: title, description: desc)
@@ -43,7 +42,16 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
 
     @IBAction func addPickBtnPressed(sender: UIButton!) {
         sender.setTitle("", forState: .Normal)
-        presentViewController(imagePicker, animated: true, completion: nil)
+        if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)){
+
+            imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            presentViewController(imagePicker, animated: true, completion: nil)
+        } else if(UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.SavedPhotosAlbum)){
+            imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            presentViewController(imagePicker, animated: true, completion: nil)
+        }
     }
 
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {

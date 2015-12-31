@@ -16,7 +16,13 @@ class DataService {
     private var _loadedPosts = [Post]()
 
     var loadedPosts: [Post] {
-        return _loadedPosts
+        get {
+            return _loadedPosts
+        }
+        set {
+            // wont work , I think we would need scriping in here.
+            _loadedPosts = newValue
+        }
     }
 
     func savePosts() {
@@ -58,7 +64,31 @@ class DataService {
         loadPosts()
     }
 
+    func removePost(index: Int) {
 
+        if let postData = NSUserDefaults.standardUserDefaults().objectForKey(KEY_POSTS) as? NSData {
+            if var postArray = NSKeyedUnarchiver.unarchiveObjectWithData(postData) as? [Post] {
+                if(!postArray.isEmpty){
+                    postArray.removeAtIndex(index)
+                }
+            }
+        }
+    }
+
+    func deletePost(imgToDelete: String) {
+        savePosts()
+        deletePicture(imgToDelete)
+    }
+
+    func deletePicture(pngImgNameToDelete: String) {
+        let fileManager = NSFileManager.defaultManager()
+        let pathForImageToDelete = documentsPathForFileName(pngImgNameToDelete)
+        do{
+            try fileManager.removeItemAtPath(pathForImageToDelete)
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+    }
 
     func documentsPathForFileName(name: String) -> String {
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)

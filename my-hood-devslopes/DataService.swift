@@ -20,7 +20,6 @@ class DataService {
             return _loadedPosts
         }
         set {
-            // wont work , I think we would need scriping in here.
             _loadedPosts = newValue
         }
     }
@@ -48,7 +47,6 @@ class DataService {
         imgData?.writeToFile(fullPath, atomically: true)
 
         return imgPath
-
     }
 
     func imageForPath(path: String) -> UIImage?{
@@ -93,7 +91,7 @@ class DataService {
     func documentsPathForFileName(name: String) -> String {
         let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
         let fullPath = paths[0] as NSString
-
+        
         return fullPath.stringByAppendingPathComponent(name)
     }
 }

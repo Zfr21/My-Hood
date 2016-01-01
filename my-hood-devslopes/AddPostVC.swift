@@ -29,9 +29,9 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
 
             let imgPath = DataService.instance.saveImageAndCreatePath(img)
 
-
             let post = Post(imagePath: imgPath, title: title, description: desc)
             DataService.instance.addPost(post)
+
             dismissViewControllerAnimated(true, completion: nil)
         }
     }
@@ -42,10 +42,14 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
 
     @IBAction func addPickBtnPressed(sender: UIButton!) {
         sender.setTitle("", forState: .Normal)
+
         if (UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)){
 
             imagePicker = UIImagePickerController()
             imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.Camera
+            //imagePicker.mediaTypes = [kUTTypeImage]
+            imagePicker.allowsEditing = true
             presentViewController(imagePicker, animated: true, completion: nil)
         } else if(UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.SavedPhotosAlbum)){
             imagePicker = UIImagePickerController()

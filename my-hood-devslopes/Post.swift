@@ -9,6 +9,7 @@
 import Foundation
 
 class Post: NSObject, NSCoding {
+
     private var _imagePath: String!
     private var _title: String!
     private var _postDesc: String!
@@ -22,7 +23,6 @@ class Post: NSObject, NSCoding {
     var postDesc: String {
         return _postDesc
     }
-
 
     init(imagePath: String, title: String, description: String) {
         self._imagePath = imagePath
@@ -38,11 +38,11 @@ class Post: NSObject, NSCoding {
         self._imagePath = aDecoder.decodeObjectForKey("imagePath") as? String
         self._title = aDecoder.decodeObjectForKey("title") as? String
         self._postDesc = aDecoder.decodeObjectForKey("postDesc") as? String
-        }
+    }
 
     func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(self._imagePath, forKey: "imagePath")
         aCoder.encodeObject(self._title, forKey: "title")
         aCoder.encodeObject(self._postDesc, forKey: "postDesc")
     }
-    }
+}
